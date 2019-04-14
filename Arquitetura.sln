@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean Code", "Clean Code", "{DBA65291-2771-4604-B68E-238926C706AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{47289AC3-3181-42C8-9CEA-83114E47E137}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI Avancado", "DI Avancado", "{08B9ECD8-BC36-4E97-89D3-505577B72DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{013B8A03-2E1F-4812-99A4-446771B73A76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{66F5ADAB-02D7-480E-B095-74E0F3CAD355}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arquitetura.OOP", "Arquitetura.OOP\Arquitetura.OOP.csproj", "{2D00C15D-E50F-46EF-B971-8B4F9876C2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.SOLID", "Arquitetura.SOLID\Arquitetura.SOLID.csproj", "{9B2225A8-D11E-46BF-AEEC-2FCA14C28759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D00C15D-E50F-46EF-B971-8B4F9876C2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D00C15D-E50F-46EF-B971-8B4F9876C2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D00C15D-E50F-46EF-B971-8B4F9876C2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D00C15D-E50F-46EF-B971-8B4F9876C2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2225A8-D11E-46BF-AEEC-2FCA14C28759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2225A8-D11E-46BF-AEEC-2FCA14C28759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2225A8-D11E-46BF-AEEC-2FCA14C28759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2225A8-D11E-46BF-AEEC-2FCA14C28759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D00C15D-E50F-46EF-B971-8B4F9876C2D6} = {013B8A03-2E1F-4812-99A4-446771B73A76}
+		{9B2225A8-D11E-46BF-AEEC-2FCA14C28759} = {66F5ADAB-02D7-480E-B095-74E0F3CAD355}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34C40EAD-962A-4809-AF4A-39257A26F608}
+	EndGlobalSection
+EndGlobal
